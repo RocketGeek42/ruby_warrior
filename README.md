@@ -28,6 +28,9 @@ warrior.look
 warrior.shoot!
     Shoot your bow and arrow in a given direction (forward by default).
 
+warrior.direction_of_stairs
+    Returns the direction (:left, :right, :forward, :backward) the stairs are from your location.
+
 Space
 space.empty?
     If true, this means that nothing (except maybe stairs) is at this location and you can walk here.
