@@ -31,6 +31,9 @@ warrior.shoot!
 warrior.direction_of_stairs
     Returns the direction (:left, :right, :forward, :backward) the stairs are from your location.
 
+warrior.bind!
+    Binds a unit in given direction to keep him from moving (forward by default).
+
 Space
 space.empty?
     If true, this means that nothing (except maybe stairs) is at this location and you can walk here.
